@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Puzzle1 {
+public class Puzzle1{
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -49,10 +49,10 @@ public class Puzzle1 {
             	for (int column = 0; column < Board.getHeight(); column++)
             	{
             		Board.blocks[row][column] = singeLine[index];
-//            		System.out.print(Board.blocks[row][column] + " ");
+            		if(Board.)
             		index++;
             	}
-//            	System.out.println();
+            	System.out.println();
             }
             
           

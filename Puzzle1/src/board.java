@@ -34,7 +34,7 @@ public class board {
 	
 
 
-	public  String[][] blocks = null;
+	public  char[][] blocks = null;
 		
 }
 
